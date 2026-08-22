@@ -1,0 +1,111 @@
+# ============================================================
+# AI-POWERED TELECOM CHURN INTELLIGENCE
+# GITIGNORE
+# ============================================================
+
+
+# ============================================================
+# PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+
+# ============================================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ============================================================
+
+.env
+.env.*
+*.env
+
+# Streamlit secrets
+.streamlit/
+
+# API keys / secret files
+*.key
+*.pem
+secrets.toml
+
+
+# ============================================================
+# PERSONAL NOTES / LEARNING MATERIAL
+# ============================================================
+
+notebooks/
+
+
+# ============================================================
+# RAW AND PROCESSED DATA
+# ============================================================
+
+# Original datasets - DO NOT UPLOAD TO GITHUB
+data/raw/
+
+# Processed training/test datasets - not required for deployment
+data/processed/
+
+
+# ============================================================
+# GENERATED / UNNECESSARY PREDICTION ARTIFACTS
+# ============================================================
+
+# Large prediction probability file
+reports/prediction_probabilities.csv
+
+
+# ============================================================
+# UNUSED MODEL TRAINING ARTIFACTS
+# ============================================================
+
+# Intermediate/experimental models and tuning outputs
+models/best_model.pkl
+models/model_results.csv
+models/threshold_results.csv
+models/tuning_results.csv
+
+
+# ============================================================
+# IDE / EDITOR FILES
+# ============================================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# ============================================================
+# OPERATING SYSTEM FILES
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# LOGS
+# ============================================================
+
+*.log
+
+
+# ============================================================
+# TEMPORARY FILES
+# ============================================================
+
+*.tmp
+*.temp
+*.bak

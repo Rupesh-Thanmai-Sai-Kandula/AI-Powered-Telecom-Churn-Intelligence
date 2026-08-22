@@ -1,0 +1,122 @@
+[
+    {
+        "id": "project_objective",
+        "title": "Telecom Churn Prediction Project Objective",
+        "category": "project_overview",
+        "content": "\nThe objective of the AI-Powered Telecom Churn Intelligence\nproject is to identify telecom customers who are likely to\nchurn and assign them a meaningful risk level.\n\nThe system uses historical customer behavior such as recharge\nactivity, revenue, ARPU, service usage, network usage, tenure,\nand other customer attributes.\n\nThe machine learning component predicts the probability that\na customer will churn.\n\nThe final system is intended to go beyond simple churn\nprediction by providing customer-specific risk analysis and\nretention recommendations.\n"
+    },
+    {
+        "id": "dataset_structure",
+        "title": "Telecom Customer Dataset Structure",
+        "category": "data",
+        "content": "\nThe training dataset contains 2,154,048 customer records.\n\nThe target variable is churn.\n\nThe dataset contains customer attributes including:\n\nuser_id\nregion\ntenure\nmontant\nfrequence_rech\nrevenue\narpu_segment\nfrequence\ndata_volume\non_net\norange\ntigo\nzone1\nzone2\nmrg\nregularity\ntop_pack\nfreq_top_pack\n\nThe churn target contains two classes:\n\n0 = No Churn\n1 = Churn\n\nTarget distribution:\n\nNo Churn: 1,750,062 customers\nChurn: 403,986 customers\n\nTherefore, churn is the minority class in the dataset.\n"
+    },
+    {
+        "id": "feature_engineering",
+        "title": "Feature Engineering and Preprocessing",
+        "category": "machine_learning",
+        "content": "\nThe machine learning preprocessing pipeline separates\nnumerical and categorical features.\n\nNumerical features are processed using:\n\n1. Median imputation for missing values.\n2. StandardScaler for numerical scaling.\n\nCategorical features are processed using:\n\n1. Most-frequent imputation.\n2. One-hot encoding.\n\nThe OneHotEncoder uses handle_unknown='ignore' so that\npreviously unseen categorical values do not cause prediction\nfailures.\n\nThe original customer dataset contains 17 predictive features.\n\nAfter preprocessing, the feature representation contains\n172 processed features.\n\nSparse matrices are used to reduce memory consumption because\none-hot encoding produces many zero values.\n"
+    },
+    {
+        "id": "missing_data",
+        "title": "Missing Data Findings",
+        "category": "data_analysis",
+        "content": "\nThe dataset contains substantial missing values in several\ncustomer behavior variables.\n\nImportant missing-value counts identified during analysis\ninclude:\n\nzone2: 2,017,224\nzone1: 1,984,327\ntigo: 1,290,016\ndata_volume: 1,060,433\nfreq_top_pack: 902,594\ntop_pack: 902,594\norange: 895,248\nregion: 849,299\non_net: 786,675\nmontant: 756,739\nfrequence_rech: 756,739\nfrequence: 726,048\nrevenue: 726,048\narpu_segment: 726,048\n\nMissing values were handled through the preprocessing\npipeline instead of deleting large numbers of customer\nrecords.\n"
+    },
+    {
+        "id": "recharge_behavior",
+        "title": "Recharge Behavior Analysis",
+        "category": "customer_behavior",
+        "content": "\nRecharge frequency was analyzed as an important customer\nbehavior variable.\n\nThe observed recharge-frequency groups were:\n\nNo Frequency Data:\n726,048 customers\n\nVery Low:\n373,282 customers\n\nLow:\n375,201 customers\n\nHigh:\n343,015 customers\n\nVery High:\n336,502 customers\n\nThe analysis shows that a large portion of customers have\nmissing recharge-frequency information.\n\nRecharge behavior can therefore be useful when interpreting\ncustomer engagement and potential churn risk, but missing\nvalues must be handled carefully.\n"
+    },
+    {
+        "id": "revenue_behavior",
+        "title": "Revenue and ARPU Analysis",
+        "category": "customer_behavior",
+        "content": "\nRevenue and ARPU were analyzed as indicators of customer\nvalue and engagement.\n\nRevenue groups included:\n\nNo Revenue Data:\n726,048 customers\n\nLow Revenue (<=1000):\n375,757 customers\n\nMedium Revenue (1001-3000):\n340,308 customers\n\nHigh Revenue (3001-7000):\n338,058 customers\n\nVery High Revenue (>7000):\n373,877 customers\n\nARPU groups included:\n\nNo ARPU Data:\n726,048 customers\n\nVery Low ARPU:\n375,757 customers\n\nLow ARPU:\n343,279 customers\n\nHigh ARPU:\n351,996 customers\n\nVery High ARPU:\n356,968 customers\n\nRevenue and ARPU can be useful for distinguishing customer\nvalue when interpreting churn risk.\n"
+    },
+    {
+        "id": "data_usage",
+        "title": "Data Usage Analysis",
+        "category": "customer_behavior",
+        "content": "\nData usage was divided into the following groups:\n\nNo Data Usage:\n1,060,433 customers\n\nZero Usage:\n320,153 customers\n\nLow Usage (1-1000):\n348,436 customers\n\nMedium Usage (1001-5000):\n230,897 customers\n\nHigh Usage (5001-20000):\n160,136 customers\n\nVery High Usage (>20000):\n33,993 customers\n\nData usage provides an additional measure of customer\nengagement with telecom services.\n"
+    },
+    {
+        "id": "network_usage",
+        "title": "Network Usage Analysis",
+        "category": "customer_behavior",
+        "content": "\nNetwork usage was analyzed across ON_NET, ORANGE, and TIGO.\n\nON_NET had:\n\nHigh: 336,275\nLow: 319,590\nNo Data: 786,675\nVery High: 341,731\nVery Low: 369,777\n\nORANGE had:\n\nHigh: 308,880\nLow: 318,596\nNo Data: 895,248\nVery High: 313,014\nVery Low: 318,310\n\nTIGO had:\n\nHigh: 210,101\nLow: 159,928\nNo Data: 1,290,016\nVery High: 215,038\nVery Low: 278,965\n\nNetwork usage can provide additional information about\ncustomer engagement and service usage patterns.\n"
+    },
+    {
+        "id": "tenure_behavior",
+        "title": "Customer Tenure Analysis",
+        "category": "customer_behavior",
+        "content": "\nCustomer tenure was grouped into four categories:\n\nVery Low (1-6):\n575,033 customers\n\nLow (7-24):\n509,831 customers\n\nHigh (25-51):\n551,956 customers\n\nVery High (52-62):\n517,228 customers\n\nTenure represents the length of the customer's relationship\nwith the telecom service and can be considered when analyzing\ncustomer churn behavior.\n"
+    },
+    {
+        "id": "regularity_behavior",
+        "title": "Customer Regularity Analysis",
+        "category": "customer_behavior",
+        "content": "\nRegularity was analyzed using six observed values:\n\nRegularity 0:\n813,832 customers\n\nRegularity 1:\n487,627 customers\n\nRegularity 2:\n125,655 customers\n\nRegularity 3:\n127,857 customers\n\nRegularity 4:\n212,965 customers\n\nRegularity 5:\n386,112 customers\n\nRegularity is therefore another behavioral feature that can\nbe used by the machine learning model when predicting churn.\n"
+    },
+    {
+        "id": "model_comparison",
+        "title": "Machine Learning Model Comparison",
+        "category": "machine_learning",
+        "content": "\nThree classification models were evaluated:\n\nRandom Forest\nDecision Tree\nLogistic Regression\n\nThe initial model comparison produced:\n\nRandom Forest:\nAccuracy = 0.8413\nPrecision = 0.5468\nRecall = 0.8998\nF1 = 0.6802\nROC-AUC = 0.9284\n\nDecision Tree:\nAccuracy = 0.8355\nPrecision = 0.5361\nRecall = 0.9112\nF1 = 0.6751\nROC-AUC = 0.9290\n\nLogistic Regression:\nAccuracy = 0.8372\nPrecision = 0.5396\nRecall = 0.8974\nF1 = 0.6740\nROC-AUC = 0.9275\n\nRandom Forest provided the best initial F1 score and was\nselected for further tuning.\n"
+    },
+    {
+        "id": "random_forest_tuning",
+        "title": "Random Forest Hyperparameter Tuning",
+        "category": "machine_learning",
+        "content": "\nRandom Forest hyperparameters were tested to improve\nclassification performance.\n\nThe configurations evaluated were:\n\nRF_1:\n150 trees\nMax depth = 15\nMinimum samples leaf = 10\nF1 = 0.6803\n\nRF_2:\n150 trees\nMax depth = 20\nMinimum samples leaf = 10\nF1 = 0.6817\n\nRF_3:\n150 trees\nMax depth = 15\nMinimum samples leaf = 20\nF1 = 0.6828\n\nRF_4:\n200 trees\nMax depth = 20\nMinimum samples leaf = 20\nF1 = 0.6810\n\nRF_3 produced the best F1 score and was selected as the\ntuned Random Forest configuration.\n"
+    },
+    {
+        "id": "threshold_optimization",
+        "title": "Classification Threshold Optimization",
+        "category": "machine_learning",
+        "content": "\nThe default classification threshold of 0.50 was optimized\nbecause the project focuses on identifying customers who may\nchurn.\n\nThe tuned Random Forest was evaluated at different thresholds.\n\nThe best F1 score was obtained at threshold 0.60.\n\nAt threshold 0.60:\n\nAccuracy = 0.8545\nPrecision = 0.5753\nRecall = 0.8560\nF1 = 0.6881\nROC-AUC = 0.9281\n\nThe threshold of 0.60 was therefore selected for the final\ncustomer churn prediction system.\n"
+    },
+    {
+        "id": "final_model",
+        "title": "Final Churn Prediction Model",
+        "category": "machine_learning",
+        "content": "\nThe final model is a tuned Random Forest classifier.\n\nConfiguration:\n\nTrees = 150\nMaximum depth = 15\nMinimum samples per leaf = 20\n\nClassification threshold = 0.60\n\nFinal validation performance:\n\nAccuracy = 0.8545\nPrecision = 0.5753\nRecall = 0.8560\nF1 Score = 0.6881\nROC-AUC = 0.9281\n\nThe model is stored as:\n\nmodels/tuned_random_forest.pkl\n\nThe preprocessing pipeline is stored as:\n\nmodels/preprocessor.pkl\n"
+    },
+    {
+        "id": "confusion_matrix",
+        "title": "Final Model Confusion Matrix",
+        "category": "model_evaluation",
+        "content": "\nUsing the final threshold of 0.60, the confusion matrix was:\n\nActual No Churn predicted No Churn:\n298,952\n\nActual No Churn predicted Churn:\n51,061\n\nActual Churn predicted No Churn:\n11,635\n\nActual Churn predicted Churn:\n69,162\n\nThe model correctly identified 69,162 actual churn customers\nas churn while incorrectly classifying 11,635 actual churn\ncustomers as No Churn.\n\nThe relatively high recall for the churn class is important\nbecause missing customers who are likely to churn can reduce\nthe effectiveness of retention campaigns.\n"
+    },
+    {
+        "id": "risk_categories",
+        "title": "Customer Churn Risk Categories",
+        "category": "risk_analysis",
+        "content": "\nThe prediction system converts churn probability into five\nrisk categories:\n\nVery Low\nLow\nMedium\nHigh\nVery High\n\nThe test prediction run generated results for 380,127\ncustomers:\n\nVery High:\n73,390\n\nHigh:\n32,371\n\nMedium:\n25,162\n\nLow:\n46,417\n\nVery Low:\n202,787\n\nThe risk category provides a more understandable business\ninterpretation of the numerical churn probability.\n"
+    },
+    {
+        "id": "feature_importance",
+        "title": "Model Feature Importance",
+        "category": "model_interpretation",
+        "content": "\nFeature importance was extracted from the final Random Forest\nmodel to understand which processed features contributed most\nto the predictions.\n\nThe top processed features included:\n\nFeature_27\nFeature_11\nFeature_0\nFeature_2\nFeature_171\nFeature_3\nFeature_6\nFeature_1\nFeature_4\nFeature_13\n\nFeature importance helps provide interpretability for the\nmachine learning model.\n\nBecause categorical variables were one-hot encoded, the model\nworks with processed feature representations rather than only\nthe original human-readable column names.\n"
+    },
+    {
+        "id": "business_interpretation",
+        "title": "Business Interpretation of Churn Risk",
+        "category": "business_strategy",
+        "content": "\nThe churn prediction system should be used to prioritize\ncustomers for retention rather than treating every customer\nequally.\n\nA high churn probability indicates that the model identifies\nthe customer as having characteristics associated with churn.\n\nIt does not prove that the customer will definitely churn.\n\nSimilarly, feature importance indicates how the model uses\nfeatures for prediction. It does not automatically prove that\na feature directly causes churn.\n\nBusiness decisions should therefore combine:\n\n- Predicted churn probability\n- Risk category\n- Customer value\n- Recharge behavior\n- Revenue\n- Usage behavior\n- Other available customer information\n"
+    },
+    {
+        "id": "retention_strategy",
+        "title": "Customer Retention Strategy",
+        "category": "business_strategy",
+        "content": "\nRetention actions should be personalized according to the\ncustomer's predicted risk and observed behavior.\n\nPotential strategies include:\n\nFor high-risk customers:\n- Personalized retention offers\n- Recharge incentives\n- Relevant voice or data bundles\n- Loyalty benefits\n\nFor medium-risk customers:\n- Engagement campaigns\n- Personalized service recommendations\n- Usage-based offers\n\nFor low-risk customers:\n- Standard loyalty programs\n- Normal engagement\n- Cross-selling relevant services\n\nThe system should avoid making unsupported claims about why a\ncustomer will churn.\n"
+    },
+    {
+        "id": "rag_purpose",
+        "title": "Purpose of the RAG System",
+        "category": "rag",
+        "content": "\nThe Retrieval-Augmented Generation component will provide\nrelevant project knowledge to the language model when\nanalyzing individual customers.\n\nThe machine learning model provides:\n\n- Churn probability\n- Churn prediction\n- Risk category\n\nThe RAG system provides relevant contextual knowledge such as:\n\n- Customer behavior interpretations\n- Model findings\n- Feature information\n- Retention strategies\n- Business interpretation principles\n\nThe LLM can then use both the customer prediction and the\nretrieved knowledge to generate an understandable customer\nrisk explanation and retention recommendation.\n\nRAG is therefore used to ground the LLM's response in the\nknowledge and findings of this specific telecom churn project.\n"
+    }
+]

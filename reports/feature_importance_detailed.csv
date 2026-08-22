@@ -1,0 +1,173 @@
+Feature,Importance,Original_Feature
+categorical__region_None,0.257591949739489,region_None
+numerical__regularity,0.18191747890451546,regularity
+numerical__montant,0.07050579989985352,montant
+numerical__revenue,0.06567679959963965,revenue
+categorical__top_pack_None,0.06318998643729758,top_pack_None
+numerical__arpu_segment,0.049485790265224414,arpu_segment
+numerical__on_net,0.04579450101349756,on_net
+numerical__frequence_rech,0.0449222184068681,frequence_rech
+numerical__frequence,0.04467950401221113,frequence
+categorical__region_DAKAR,0.035100619634354256,region_DAKAR
+numerical__freq_top_pack,0.033927973540494316,freq_top_pack
+numerical__orange,0.02969235978584705,orange
+numerical__data_volume,0.013722138363788494,data_volume
+categorical__region_THIES,0.010547643747252403,region_THIES
+numerical__tigo,0.008286478575998568,tigo
+categorical__region_LOUGA,0.005925667625599728,region_LOUGA
+categorical__region_SAINT-LOUIS,0.005780212258347283,region_SAINT-LOUIS
+categorical__region_DIOURBEL,0.004712602651231461,region_DIOURBEL
+categorical__top_pack_All-net 500F=2000F;5d,0.0041268544798606175,top_pack_All-net 500F=2000F;5d
+categorical__region_KAOLACK,0.004028168465222846,region_KAOLACK
+categorical__top_pack_On net 200F=Unlimited _call24H,0.003381232322061484,top_pack_On net 200F=Unlimited _call24H
+categorical__region_TAMBACOUNDA,0.0023666490274960325,region_TAMBACOUNDA
+categorical__region_KAFFRINE,0.0019855349739197523,region_KAFFRINE
+categorical__region_FATICK,0.0015170042136302888,region_FATICK
+categorical__top_pack_MIXT:500F= 2500F on net _2500F off net;2d,0.0014928772041914022,top_pack_MIXT:500F= 2500F on net _2500F off net;2d
+categorical__region_KOLDA,0.0011956296103143558,region_KOLDA
+categorical__region_MATAM,0.0010403609310928718,region_MATAM
+categorical__top_pack_All-net 500F =2000F_AllNet_Unlimited,0.0009052431083732648,top_pack_All-net 500F =2000F_AllNet_Unlimited
+"categorical__top_pack_Data:490F=1GB,7d",0.0008926855659773858,"top_pack_Data:490F=1GB,7d"
+"categorical__top_pack_Data:1000F=2GB,30d",0.000784753645874991,"top_pack_Data:1000F=2GB,30d"
+numerical__zone1,0.0007341521703220307,zone1
+numerical__zone2,0.0005716736424132309,zone2
+"categorical__top_pack_Data: 100 F=40MB,24H",0.0005511331352667422,"top_pack_Data: 100 F=40MB,24H"
+categorical__region_ZIGUINCHOR,0.000493726734026143,region_ZIGUINCHOR
+categorical__top_pack_Mixt 250F=Unlimited_call24H,0.00047321955895957436,top_pack_Mixt 250F=Unlimited_call24H
+"categorical__top_pack_Data:1000F=5GB,7d",0.00022496824198962355,"top_pack_Data:1000F=5GB,7d"
+categorical__tenure_K > 24 month,0.00021569338627299534,tenure_K > 24 month
+categorical__top_pack_On-net 1000F=10MilF;10d,0.00020273279644837975,top_pack_On-net 1000F=10MilF;10d
+categorical__top_pack_IVR Echat_Daily_50F,0.00017012858686783191,top_pack_IVR Echat_Daily_50F
+categorical__top_pack_MIXT: 200mnoff net _unl on net _5Go;30d,0.000145101732265118,top_pack_MIXT: 200mnoff net _unl on net _5Go;30d
+categorical__top_pack_Jokko_Daily,9.95711567391924e-05,top_pack_Jokko_Daily
+"categorical__top_pack_Data: 200 F=100MB,24H",9.268453511778157e-05,"top_pack_Data: 200 F=100MB,24H"
+categorical__tenure_I 18-21 month,8.888965083544899e-05,tenure_I 18-21 month
+categorical__top_pack_On-net 500F_FNF;3d,7.238833237035642e-05,top_pack_On-net 500F_FNF;3d
+"categorical__top_pack_On-net 500=4000,10d",7.044001097935692e-05,"top_pack_On-net 500=4000,10d"
+categorical__tenure_G 12-15 month,5.7456069175143356e-05,tenure_G 12-15 month
+categorical__tenure_H 15-18 month,5.6731129083738953e-05,tenure_H 15-18 month
+categorical__top_pack_Twter_U2opia_Daily,4.907278127908333e-05,top_pack_Twter_U2opia_Daily
+categorical__top_pack_All-net 1000=5000;5d,4.896804707393376e-05,top_pack_All-net 1000=5000;5d
+"categorical__top_pack_Data:3000F=10GB,30d",4.443049786188743e-05,"top_pack_Data:3000F=10GB,30d"
+categorical__region_SEDHIOU,4.1380128095808016e-05,region_SEDHIOU
+categorical__top_pack_VAS(IVR_Radio_Daily),4.108701751748592e-05,top_pack_VAS(IVR_Radio_Daily)
+categorical__tenure_F 9-12 month,4.06203922520217e-05,tenure_F 9-12 month
+"categorical__top_pack_Data:200F=Unlimited,24H",3.853524500704764e-05,"top_pack_Data:200F=Unlimited,24H"
+categorical__top_pack_On-net 200F=60mn;1d,1.9231784718865187e-05,top_pack_On-net 200F=60mn;1d
+"categorical__top_pack_Data:500F=2GB,24H",1.812761099170761e-05,"top_pack_Data:500F=2GB,24H"
+categorical__top_pack_All-net 600F= 3000F ;5d,1.740566862513136e-05,top_pack_All-net 600F= 3000F ;5d
+categorical__top_pack_New_YAKALMA_4_ALL,1.7293715865845855e-05,top_pack_New_YAKALMA_4_ALL
+categorical__tenure_J 21-24 month,1.575310735230363e-05,tenure_J 21-24 month
+categorical__top_pack_WIFI_Family_2MBPS,1.2482038924643507e-05,top_pack_WIFI_Family_2MBPS
+categorical__region_KEDOUGOU,1.2446484776615952e-05,region_KEDOUGOU
+categorical__tenure_E 6-9 month,9.256883570655627e-06,tenure_E 6-9 month
+categorical__top_pack_Twter_U2opia_Weekly,9.159510825207104e-06,top_pack_Twter_U2opia_Weekly
+categorical__top_pack_Data:50F=30MB_24H,7.677919115083305e-06,top_pack_Data:50F=30MB_24H
+categorical__top_pack_Facebook_MIX_2D,7.6426367762382e-06,top_pack_Facebook_MIX_2D
+"categorical__top_pack_Data:1500F=3GB,30D",7.373258927193626e-06,"top_pack_Data:1500F=3GB,30D"
+categorical__top_pack_Data:30Go_V 30_Days,6.454156892196487e-06,top_pack_Data:30Go_V 30_Days
+"categorical__top_pack_Data:300F=100MB,2d",5.641561817381019e-06,"top_pack_Data:300F=100MB,2d"
+categorical__top_pack_Data:DailyCycle_Pilot_1.5GB,2.650734262689548e-06,top_pack_Data:DailyCycle_Pilot_1.5GB
+categorical__top_pack_All-net 500F=1250F_AllNet_1250_Onnet;48h,2.6295699904298323e-06,top_pack_All-net 500F=1250F_AllNet_1250_Onnet;48h
+"categorical__top_pack_Data: 490F=Night,00H-08H",2.6066832352380394e-06,"top_pack_Data: 490F=Night,00H-08H"
+categorical__top_pack_MIXT: 390F=04HOn-net_400SMS_400 Mo;4h	,2.5258993602986656e-06,top_pack_MIXT: 390F=04HOn-net_400SMS_400 Mo;4h	
+"categorical__top_pack_Data:150F=SPPackage1,24H",2.2676566428088982e-06,"top_pack_Data:150F=SPPackage1,24H"
+categorical__top_pack_WIFI_ Family _4MBPS,2.2185088605785463e-06,top_pack_WIFI_ Family _4MBPS
+categorical__top_pack_All-net 300=600;2d,2.1823014756216233e-06,top_pack_All-net 300=600;2d
+categorical__tenure_D 3-6 month,2.162970909166805e-06,tenure_D 3-6 month
+"categorical__top_pack_Data:1500F=SPPackage1,30d",1.8712446683842144e-06,"top_pack_Data:1500F=SPPackage1,30d"
+categorical__top_pack_MIXT: 590F=02H_On-net_200SMS_200 Mo;24h		,1.7706501323002776e-06,top_pack_MIXT: 590F=02H_On-net_200SMS_200 Mo;24h		
+categorical__top_pack_On net 200F= 3000F_10Mo ;24H,1.6749613158323217e-06,top_pack_On net 200F= 3000F_10Mo ;24H
+categorical__top_pack_Pilot_Youth4_490,8.961022467614967e-07,top_pack_Pilot_Youth4_490
+categorical__top_pack_Staff_CPE_Rent,7.567619748618608e-07,top_pack_Staff_CPE_Rent
+"categorical__top_pack_Data:700F=1.5GB,7d",6.732771686017328e-07,"top_pack_Data:700F=1.5GB,7d"
+categorical__top_pack_All-net 1000F=(3000F On+3000F Off);5d,6.008150263114908e-07,top_pack_All-net 1000F=(3000F On+3000F Off);5d
+categorical__top_pack_Internat: 1000F_Zone_1;24H		,6.003482946956893e-07,top_pack_Internat: 1000F_Zone_1;24H		
+categorical__top_pack_Twter_U2opia_Monthly,5.664336494523569e-07,top_pack_Twter_U2opia_Monthly
+categorical__top_pack_On-net 2000f_One_Month_100H; 30d,5.357681700107375e-07,top_pack_On-net 2000f_One_Month_100H; 30d
+categorical__top_pack_Jokko_promo,4.695515655277796e-07,top_pack_Jokko_promo
+categorical__top_pack_MROMO_TIMWES_OneDAY,4.1273586801533264e-07,top_pack_MROMO_TIMWES_OneDAY
+categorical__top_pack_200=Unlimited1Day,3.7834542294142906e-07,top_pack_200=Unlimited1Day
+categorical__top_pack_Jokko_Weekly,3.160457829195455e-07,top_pack_Jokko_Weekly
+categorical__top_pack_Yewouleen_PKG,2.2963103301808798e-07,top_pack_Yewouleen_PKG
+categorical__top_pack_Jokko_Monthly,2.0414139247378785e-07,top_pack_Jokko_Monthly
+categorical__top_pack_On-net 300F=1800F;3d,1.9687189105980422e-07,top_pack_On-net 300F=1800F;3d
+categorical__top_pack_MIXT:10000F=10hAllnet_3Go_1h_Zone3;30d		,1.8258743639328297e-07,top_pack_MIXT:10000F=10hAllnet_3Go_1h_Zone3;30d		
+categorical__top_pack_All-net 5000= 20000off+20000on;30d,1.7096457242660137e-07,top_pack_All-net 5000= 20000off+20000on;30d
+categorical__top_pack_CVM_on-net bundle 500=5000,1.4133161868662466e-07,top_pack_CVM_on-net bundle 500=5000
+"categorical__top_pack_YMGX 100=1 hour FNF, 24H/1 month",1.3497626076538635e-07,"top_pack_YMGX 100=1 hour FNF, 24H/1 month"
+"categorical__top_pack_MIXT: 500F=75(SMS, ONNET, Mo)_1000FAllNet;24h		",1.0545387673471764e-07,"top_pack_MIXT: 500F=75(SMS, ONNET, Mo)_1000FAllNet;24h		"
+categorical__top_pack_DataPack_Incoming,8.143867440326083e-08,top_pack_DataPack_Incoming
+"categorical__top_pack_MIXT: 4900F= 10H on net_1,5Go ;30d",8.117087774037163e-08,"top_pack_MIXT: 4900F= 10H on net_1,5Go ;30d"
+categorical__top_pack_MROMO_TIMWES_RENEW,7.064865157440832e-08,top_pack_MROMO_TIMWES_RENEW
+categorical__top_pack_MIXT:1000F=4250 Off net _ 4250F On net _100Mo; 5d,6.441696719665196e-08,top_pack_MIXT:1000F=4250 Off net _ 4250F On net _100Mo; 5d
+categorical__top_pack_Pilot_Youth1_290,6.438452631837728e-08,top_pack_Pilot_Youth1_290
+categorical__top_pack_VAS(IVR_Radio_Monthly),3.028176139646623e-08,top_pack_VAS(IVR_Radio_Monthly)
+categorical__top_pack_FNF2 ( JAPPANTE),2.136876735939736e-08,top_pack_FNF2 ( JAPPANTE)
+categorical__top_pack_SUPERMAGIK_5000,3.354180586329626e-09,top_pack_SUPERMAGIK_5000
+categorical__top_pack_MIXT: 5000F=80Konnet_20Koffnet_250Mo;30d		,2.845642765205907e-10,top_pack_MIXT: 5000F=80Konnet_20Koffnet_250Mo;30d		
+categorical__mrg_NO,0.0,mrg_NO
+categorical__top_pack_305155009,0.0,top_pack_305155009
+categorical__top_pack_200F=10mnOnNetValid1H,0.0,top_pack_200F=10mnOnNetValid1H
+categorical__top_pack_200=unlimited pilot auto,0.0,top_pack_200=unlimited pilot auto
+categorical__top_pack_150=unlimited pilot auto,0.0,top_pack_150=unlimited pilot auto
+categorical__top_pack_1000=Unlimited7Day,0.0,top_pack_1000=Unlimited7Day
+categorical__top_pack_1500=Unlimited7Day,0.0,top_pack_1500=Unlimited7Day
+categorical__top_pack_FNF_Youth_ESN,0.0,top_pack_FNF_Youth_ESN
+categorical__top_pack_GPRS_3000Equal10GPORTAL,0.0,top_pack_GPRS_3000Equal10GPORTAL
+categorical__top_pack_GPRS_5Go_7D_PORTAL,0.0,top_pack_GPRS_5Go_7D_PORTAL
+categorical__top_pack_EVC_4900=12000F,0.0,top_pack_EVC_4900=12000F
+categorical__top_pack_EVC_JOKKO30,0.0,top_pack_EVC_JOKKO30
+categorical__top_pack_EVC_700Mo,0.0,top_pack_EVC_700Mo
+categorical__top_pack_EVC_1Go,0.0,top_pack_EVC_1Go
+categorical__top_pack_EVC_100Mo,0.0,top_pack_EVC_100Mo
+categorical__top_pack_Data_Mifi_20Go,0.0,top_pack_Data_Mifi_20Go
+categorical__top_pack_ESN_POSTPAID_CLASSIC_RENT,0.0,top_pack_ESN_POSTPAID_CLASSIC_RENT
+categorical__top_pack_Data_EVC_2Go24H,0.0,top_pack_Data_EVC_2Go24H
+categorical__top_pack_Data:New-GPRS_PKG_1500F,0.0,top_pack_Data:New-GPRS_PKG_1500F
+categorical__top_pack_Data_Mifi_10Go_Monthly,0.0,top_pack_Data_Mifi_10Go_Monthly
+categorical__top_pack_Data_Mifi_10Go,0.0,top_pack_Data_Mifi_10Go
+"categorical__top_pack_Data:700F=SPPackage1,7d",0.0,"top_pack_Data:700F=SPPackage1,7d"
+categorical__top_pack_APANews_monthly,0.0,top_pack_APANews_monthly
+categorical__top_pack_500=Unlimited3Day,0.0,top_pack_500=Unlimited3Day
+categorical__top_pack_All-net 500= 4000off+4000on;24H,0.0,top_pack_All-net 500= 4000off+4000on;24H
+categorical__top_pack_CVM_100f=500 onNet,0.0,top_pack_CVM_100f=500 onNet
+categorical__top_pack_CVM_100f=200 MB,0.0,top_pack_CVM_100f=200 MB
+categorical__top_pack_CVM_On-net 400f=2200F,0.0,top_pack_CVM_On-net 400f=2200F
+categorical__top_pack_CVM_On-net 1300f=12500,0.0,top_pack_CVM_On-net 1300f=12500
+categorical__top_pack_CVM_150F_unlimited,0.0,top_pack_CVM_150F_unlimited
+categorical__top_pack_CVM_200f=400MB,0.0,top_pack_CVM_200f=400MB
+categorical__top_pack_CVM_500f=2GB,0.0,top_pack_CVM_500f=2GB
+"categorical__top_pack_Data: 200F=1GB,24H",0.0,"top_pack_Data: 200F=1GB,24H"
+categorical__top_pack_All-net 500F=4000F ; 5d,0.0,top_pack_All-net 500F=4000F ; 5d
+categorical__top_pack_CVM_100F_unlimited,0.0,top_pack_CVM_100F_unlimited
+categorical__top_pack_APANews_weekly,0.0,top_pack_APANews_weekly
+categorical__top_pack_FIFA_TS_weekly,0.0,top_pack_FIFA_TS_weekly
+categorical__top_pack_FIFA_TS_daily,0.0,top_pack_FIFA_TS_daily
+categorical__top_pack_FIFA_TS_monthly,0.0,top_pack_FIFA_TS_monthly
+categorical__top_pack_EVC_Jokko_Weekly,0.0,top_pack_EVC_Jokko_Weekly
+categorical__top_pack_EVC_MEGA10000F,0.0,top_pack_EVC_MEGA10000F
+categorical__top_pack_EVC_500=2000F,0.0,top_pack_EVC_500=2000F
+categorical__top_pack_Incoming_Bonus_woma,0.0,top_pack_Incoming_Bonus_woma
+categorical__top_pack_IVR Echat_Monthly_500F,0.0,top_pack_IVR Echat_Monthly_500F
+categorical__top_pack_Go-NetPro-4 Go,0.0,top_pack_Go-NetPro-4 Go
+categorical__top_pack_GPRS_BKG_1000F MIFI,0.0,top_pack_GPRS_BKG_1000F MIFI
+categorical__top_pack_IVR Echat_Weekly_200F,0.0,top_pack_IVR Echat_Weekly_200F
+categorical__top_pack_Internat: 1000F_Zone_3;24h		,0.0,top_pack_Internat: 1000F_Zone_3;24h		
+categorical__top_pack_Internat: 2000F_Zone_2;24H		,0.0,top_pack_Internat: 2000F_Zone_2;24H		
+categorical__top_pack_NEW_CLIR_TEMPRESTRICTED_LIBERTE_MOBILE,0.0,top_pack_NEW_CLIR_TEMPRESTRICTED_LIBERTE_MOBILE
+categorical__top_pack_NEW_CLIR_TEMPALLOWED_LIBERTE_MOBILE,0.0,top_pack_NEW_CLIR_TEMPALLOWED_LIBERTE_MOBILE
+categorical__top_pack_NEW_CLIR_PERMANENT_LIBERTE_MOBILE,0.0,top_pack_NEW_CLIR_PERMANENT_LIBERTE_MOBILE
+categorical__top_pack_Mixt : 500F=2500Fonnet_2500Foffnet ;5d,0.0,top_pack_Mixt : 500F=2500Fonnet_2500Foffnet ;5d
+categorical__top_pack_MegaChrono_3000F=12500F TOUS RESEAUX,0.0,top_pack_MegaChrono_3000F=12500F TOUS RESEAUX
+categorical__top_pack_GPRS_PKG_5GO_ILLIMITE,0.0,top_pack_GPRS_PKG_5GO_ILLIMITE
+categorical__top_pack_Postpaid FORFAIT 10H Package,0.0,top_pack_Postpaid FORFAIT 10H Package
+categorical__top_pack_SUPERMAGIK_1000,0.0,top_pack_SUPERMAGIK_1000
+categorical__top_pack_TelmunCRBT_daily,0.0,top_pack_TelmunCRBT_daily
+categorical__top_pack_WIFI_ Family _10MBPS,0.0,top_pack_WIFI_ Family _10MBPS
+categorical__top_pack_VAS(IVR_Radio_Weekly),0.0,top_pack_VAS(IVR_Radio_Weekly)
+"categorical__top_pack_YMGX on-net 100=700F, 24H",0.0,"top_pack_YMGX on-net 100=700F, 24H"
+categorical__top_pack_pack_chinguitel_24h,0.0,top_pack_pack_chinguitel_24h
+categorical__top_pack_pilot_offer4,0.0,top_pack_pilot_offer4
+categorical__top_pack_pilot_offer6,0.0,top_pack_pilot_offer6
+categorical__top_pack_pilot_offer7,0.0,top_pack_pilot_offer7
