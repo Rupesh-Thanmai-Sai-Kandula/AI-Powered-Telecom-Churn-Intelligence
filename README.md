@@ -2,6 +2,8 @@
 
 An end-to-end Data Science and Generative AI project that predicts telecom customer churn, identifies high-risk customers, and generates AI-powered business insights using PostgreSQL, Python, Machine Learning, RAG, and Google Gemini.
 
+🌐 Website: https://telecom-churn-risk-intelligence.streamlit.app/
+
 ---
 
 # 🚀 Project Overview
